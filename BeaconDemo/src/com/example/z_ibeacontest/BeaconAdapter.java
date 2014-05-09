@@ -14,6 +14,7 @@ import com.aprilbrother.aprilbrothersdk.Beacon;
 
 public class BeaconAdapter extends BaseAdapter {
 
+
 	private ArrayList<Beacon> beacons;
 	private LayoutInflater inflater;
 
@@ -50,6 +51,7 @@ public class BeaconAdapter extends BaseAdapter {
 	    return view;
 	  }
 
+	  
 	  private void bind(Beacon beacon, View view) {
 	    ViewHolder holder = (ViewHolder) view.getTag();
 	    holder.macTextView.setText(String.format("MAC: %s (%.2fm)", beacon.getMacAddress(), beacon.getDistance()));

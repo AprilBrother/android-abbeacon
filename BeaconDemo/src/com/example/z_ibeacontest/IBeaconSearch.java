@@ -29,9 +29,6 @@ import com.aprilbrother.aprilbrothersdk.Region;
 public class IBeaconSearch extends Activity {
 	private static final int REQUEST_ENABLE_BT = 1234;
 	private static final String TAG = "MainActivity";
-	// private static final Region ALL_BEACONS_REGION = new Region("apr",
-	// "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
-	// null, null);
 	private static final Region ALL_BEACONS_REGION = new Region("apr", null,
 			null, null);
 	private BeaconAdapter adapter;

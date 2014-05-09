@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:27
+-keep class com.aprilbrother.aprilbrothersdk.service.BeaconService { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+-keep class com.example.z_ibeacontest.IBeaconSearch { <init>(...); }
+
